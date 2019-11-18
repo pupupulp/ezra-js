@@ -1,0 +1,29 @@
+{
+  "name": "yrra",
+  "version": "1.0.0",
+  "description": "An opensource implementation of clean architecture on NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pupupulp/yrra-js.git"
+  },
+  "keywords": [
+    "clean",
+    "architecture",
+    "nodejs"
+  ],
+  "author": "Eagan Martin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pupupulp/yrra-js/issues"
+  },
+  "homepage": "https://github.com/pupupulp/yrra-js#readme",
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  }
+}
