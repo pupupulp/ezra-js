@@ -1,15 +1,15 @@
 global.demand = path => require(`${__dirname}/${path}`);
 
-const dependencies = demand('config/dependency-injector');
+const dependencies = demand('configs/dependency-injector');
 
-dependencies.DatabaseService.initialize()
+dependencies.DatabaseService.initialize(dependencies)
     .then(() => {
-        dependencies.BackendService.initialize(dependencies)
+        dependencies.ApplicationService.initialize(dependencies)
             .catch(err => {
-                dependencies.LoggerService.error(err);
+                console.log(err);
             });
     })
     .catch(err => {
-        dependencies.LoggerService.error(err);
+        console.log(err);
     })
 
