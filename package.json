@@ -1,7 +1,7 @@
 {
   "name": "yrra",
   "version": "1.0.0",
-  "description": "An opensource implementation of clean architecture on NodeJS",
+  "description": "An opensource implementation of clean architecture on an API powered by NodeJS",
   "main": "index.js",
   "scripts": {
     "lint": "eslint ./",
