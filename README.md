@@ -38,11 +38,9 @@ $   npm start
 
 ## Overview
 
-### Contents
+### [Object Oriented Design](http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod)
 
-#### [Object Oriented Design](http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod)
-
-##### [SOLID Principles](https://en.wikipedia.org/wiki/SOLID)
+#### [SOLID Principles](https://en.wikipedia.org/wiki/SOLID)
 
 - [Single responsibility principle](https://en.wikipedia.org/wiki/Single_responsibility_principle)
 - [Open–closed principle](https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle)
@@ -50,11 +48,11 @@ $   npm start
 - [Interface segregation principle](https://en.wikipedia.org/wiki/Interface_segregation_principle)
 - [Dependency inversion principle](https://en.wikipedia.org/wiki/Dependency_inversion_principle)
 
-#### [Clean Architecture](http://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
+### [Clean Architecture](http://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
 
 ![](https://fullstackroyhome.files.wordpress.com/2019/03/cleanarchitecture.jpg)
 
-Diagram Summary
+#### Diagram Summary
 
 **Flow of Dependency** - the flow of dependencies runs from the outside in, which makes the inner part of the circle independent of the outer.
 
