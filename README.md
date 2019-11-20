@@ -38,6 +38,8 @@ $   npm start
 
 ## Overview
 
+> Note: Interface classes are used using `extends` instead of `implements` but has a default method definition that throws a not implemented exception if the method is not overrided to simulate the `implements` behavior.
+
 ### [Object Oriented Design](http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod)
 
 #### [SOLID Principles](https://en.wikipedia.org/wiki/SOLID)
