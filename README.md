@@ -66,9 +66,9 @@ $   npm start
 
 ##### Other Layer
 
-- Controllers/Presenters/Gateways - formats data in and out, and serves as an entry and exit points to use cases.
+- **Controllers/Presenters/Gateways** - formats data in and out, and serves as an entry and exit points to use cases.
 
-- Frameworks - contains changeable, updateable, and removable parts of the system.
+- **Frameworks** - contains changeable, updateable, and removable parts of the system.
 
 ## About
 
