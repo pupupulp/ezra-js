@@ -1,4 +1,5 @@
 const { IBackendService } = demand('interfaces');
+const { ServiceInitException } = demand('exceptions');
 const http = require('http');
 const express = require('express');
 const bodyParser = require('body-parser');
@@ -92,7 +93,7 @@ module.exports = class ExpressService extends IBackendService {
 
                 resolve(server);
             } catch (err) {
-                reject(err);
+                reject(new ServiceInitException());
             }
         });
         

@@ -1,4 +1,5 @@
 const { IUserRepository } = demand('interfaces');
+const { EntityCreateException, EntityReadException } = demand('exceptions');
 
 module.exports = class GithubUserRepository extends IUserRepository {
 
@@ -13,7 +14,7 @@ module.exports = class GithubUserRepository extends IUserRepository {
                 this.users.push(userInstance);
                 resolve(userInstance);
             } catch (error) {
-                reject(new Error('Error Occurred'));
+                reject(new EntityCreateException());
             }
         });
     }
@@ -24,7 +25,7 @@ module.exports = class GithubUserRepository extends IUserRepository {
                 const user = this.users.find(u => u.username === username);
                 resolve(user);
             } catch (err) {
-                reject(new Error('Error Occurred'));
+                reject(new EntityReadException());
             }
         });
     }

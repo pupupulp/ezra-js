@@ -1,4 +1,5 @@
 const { IDatabaseService } = demand('interfaces');
+const { ServiceInitException } = demand('exceptions');
 const GithubUserRepository = demand('frameworks/databases/github/GithubUserRepository');
 const User = demand('entities/User');
 
@@ -17,7 +18,7 @@ module.exports = class GithubService extends IDatabaseService {
                 this.seed();
                 resolve();
             } catch (err) {
-                reject(err);
+                reject(new ServiceInitException());
             }
         });
     }
