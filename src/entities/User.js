@@ -1,4 +1,4 @@
-module.exports = class GithubUser {
+module.exports = class User {
     constructor(params) {
         this.id = params.id;
         this.username = params.username;

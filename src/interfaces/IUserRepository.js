@@ -1,6 +1,6 @@
 const { InterfaceMethodException } = demand('exceptions');
 
-module.exports = class IDatabaseService {
+module.exports = class IUserRepository {
 
     constructor() {}
 

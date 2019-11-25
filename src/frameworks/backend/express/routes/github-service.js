@@ -13,7 +13,7 @@ module.exports = (dependencies) => {
         .get(controller.getAllUser);
 
     router.route('/users/:username')
-        .get(controller.getUser);
+        .get(controller.getUserByUsername);
 
     return router;
 };

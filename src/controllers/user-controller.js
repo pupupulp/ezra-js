@@ -4,7 +4,7 @@ module.exports = (dependencies) => {
 
     const { userRepository } = dependencies.DatabaseService;
 
-    const getUser = (req, res, next) => {
+    const getUserByUsername = (req, res, next) => {
         const UserAction = GetUser(userRepository);
 
         UserAction.getByUsername(req.params.username)
@@ -27,7 +27,7 @@ module.exports = (dependencies) => {
     };
 
     return {
-        getUser,
+        getUserByUsername,
         getAllUser
     };
 };
