@@ -1,10 +1,10 @@
-# yrra-js
+# ezra-js
 
-![contributors](https://badgen.net/github/contributors/pupupulp/yrra-js)
-![stars](https://badgen.net/github/stars/pupupulp/yrra-js)
-![commits](https://badgen.net/github/commits/pupupulp/yrra-js)
-![last commit](https://badgen.net/github/last-commit/pupupulp/yrra-js)
-[![License](https://badgen.net/github/license/pupupulp/yrra-js)](https://github.com/pupupulp/yrra-js/blob/master/LICENSE)
+![contributors](https://badgen.net/github/contributors/pupupulp/ezra-js)
+![stars](https://badgen.net/github/stars/pupupulp/ezra-js)
+![commits](https://badgen.net/github/commits/pupupulp/ezra-js)
+![last commit](https://badgen.net/github/last-commit/pupupulp/ezra-js)
+[![License](https://badgen.net/github/license/pupupulp/ezra-js)](https://github.com/pupupulp/ezra-js/blob/master/LICENSE)
 
 An opensource implementation of clean architecture on an API powered by NodeJS
 
@@ -17,12 +17,12 @@ An opensource implementation of clean architecture on an API powered by NodeJS
 1. **Clone the repository**
 
 ```cli
-$   git clone https://github.com/pupupulp/yrra-js.git
+$   git clone https://github.com/pupupulp/ezra-js.git
 ```
 
 2. **Go to source directory**
 ```cli
-$   cd yrra-js
+$   cd ezra-js
 ```
 
 3. **Install dependencies**
@@ -74,7 +74,7 @@ $   npm start
 
 ### Contributing
 
-Pull requests and stars are always welcome. For bugs and feature requests, please [create an issue](https://github.com/pupupulp/yrra-js/issues/new).
+Pull requests and stars are always welcome. For bugs and feature requests, please [create an issue](https://github.com/pupupulp/ezra-js/issues/new).
 
 ### Related Projects
 
@@ -97,4 +97,4 @@ You might want to checkout these projects:
 
 ### License
 
-Copyright © 2019, [Eagan Martin](https://github.com/pupupulp). Release under the [MIT License](https://github.com/pupupulp/yrra-js/blob/master/LICENSE)
+Copyright © 2019, [Eagan Martin](https://github.com/pupupulp). Release under the [MIT License](https://github.com/pupupulp/ezra-js/blob/master/LICENSE)
